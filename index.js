@@ -5,7 +5,7 @@ const server = http.createServer((req, res) => {
   res.end('Hello from order.TEST 2. container port - 3000, service port - 80.\n');
 });
 
-const port = 3000;
+const port = 3002;
 server.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
